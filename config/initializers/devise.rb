@@ -13,7 +13,7 @@ Devise.setup do |config|
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
-
+config.omniauth :github, 'd8c788ae556c6767fef2', 'eb4e7c6dba89aee9312ab537a331ca72ec0ea633', :scope => 'user:email'
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
 
